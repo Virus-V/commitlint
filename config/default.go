@@ -32,7 +32,7 @@ func NewDefault() *lint.Config {
 
 		// Header Max Len Rule
 		(&rule.HeadMaxLenRule{}).Name(): {
-			Argument: 50,
+			Argument: 70,
 		},
 
 		// Body Max Line Rule
